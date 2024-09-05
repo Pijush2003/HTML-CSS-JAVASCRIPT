@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment Float and Clear</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            background-color: beige;
+            margin: auto;
+        }
+
+        .item {
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 13px;
+            background: rgb(232, 209, 209);
+        }
+
+        #fruits {
+            float: left;
+            width: 32%;
+        }
+
+        #laptop {
+            float: left;
+            width: 32%;
+        }
+
+        #stationary {
+            float: left;
+            width: 32%;
+        }
+
+        h1 {
+            margin: auto;
+            width: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my Store</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum placeat aut
+                atque reprehenderit saepe tenetur? Totam nam beatae velit officia. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Cupiditate, cumque accusamus. Est officiis, eum repellendus, obcaecati,
+                doloribus ipsam minus dolorum necessitatibus vel sed beatae voluptatum dolorem natus odio nam suscipit?
+            </p>
+        </div>
+        <div id="laptop" class="item">
+            <h3>Laptop</h3>
+            <p id="laptoppara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum placeat aut
+                atque reprehenderit saepe tenetur? Totam nam beatae velit officia. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Neque nisi suscipit maxime quam vero quasi dolorem consectetur culpa
+                adipisci recusandae, iure repudiandae blanditiis animi enim voluptatem ipsum ullam quia esse?</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum placeat
+                aut atque reprehenderit saepe tenetur? Totam nam beatae velit officia. Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Laborum porro excepturi quod, exercitationem reiciendis molestias cum
+                optio consectetur nostrum voluptatem officiis id, accusantium ipsum? Expedita quasi non error amet
+                ipsam.</p>
+        </div>
+    </div>
+</body>
+
+</html>
